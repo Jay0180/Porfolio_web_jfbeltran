@@ -72,9 +72,10 @@
 
 }
 
-input {
+input,
+textarea {
     &::placeholder {
-        color: #fdf0d5; // Change this to your desired color
+        color: #fdf0d5 !important; // Change this to your desired color
         opacity: 1; // Ensures the color is fully applied in some browsers
     }
 }
