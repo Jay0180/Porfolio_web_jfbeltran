@@ -71,3 +71,10 @@
 
 
 }
+
+input {
+    &::placeholder {
+        color: #fdf0d5; // Change this to your desired color
+        opacity: 1; // Ensures the color is fully applied in some browsers
+    }
+}
